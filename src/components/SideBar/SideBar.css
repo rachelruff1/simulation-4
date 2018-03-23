@@ -1,0 +1,15 @@
+.sidebar-container {
+  float: left;
+  width: 160px;
+  position: fixed;
+  background-color: #6f934c;
+  opacity: 0.7;
+  height: 100vh;
+}
+
+.sidebar-container img {
+    height: 110px;
+    width:110px;
+    padding-left: 20px;
+    padding-top: 20px;
+}

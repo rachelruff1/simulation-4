@@ -1,0 +1,82 @@
+.auth-container {
+  text-align: center;
+  background: url("./sim-authview.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template: 10% 80% 10% / 1fr 5fr 1fr;
+  font-family: 'Pacifico', cursive; 
+  
+}
+
+.auth-container img {
+  height: 250px;
+  width: 250px;
+  
+}
+.auth-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #6F934C;
+  opacity: 0.7;
+  grid-area: 2 / 2 / span 1 / span 1;
+  display: grid;
+  grid-template: 10% 25% 30% 25% 10% / repeat(2, 1fr);
+}
+
+.auth-logo-container {
+  height: 100%;
+  width: 100%;
+  grid-area: 2 /1 / span 3 / span 1;
+  border-right: 1px #020402 solid;
+  margin: auto;
+
+}
+
+.auth-login-container {
+    height: 100%;
+  width: 100%;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  /* display: grid;
+  grid-template: 30% 30% 40% / 1fr; */
+}
+
+#welcome {
+    color: #020402;
+    font-size: 30px;
+
+}
+
+#goodEats {
+    font-size: 60px;
+    font-weight: bold;
+    color: #020402;
+}
+
+/* .username-container{
+   height: 20px;
+   display: inline-block;
+} */
+
+.auth-container button {
+ background-color: #E5B642;
+ padding: 0 20px;
+ margin: 10px;
+ font-family: 'Pacifico', cursive; 
+ border-radius: 5px;
+ font-size: 20px;
+ border: none;
+ color: #AF3236;
+}
+
+.auth-container input {
+    border-radius: 5px;
+    height: 20px;
+    width: 150px;
+}
